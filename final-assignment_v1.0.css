@@ -1,0 +1,157 @@
+/* COLOURS 
+#E6E3DD
+#E1D7C9
+#CAB9A8
+#AF967C
+#1A1B1D - RGB 26, 27, 29
+ */
+
+ /* font-family: 'Great Vibes', cursive;
+font-family: 'Montserrat', sans-serif; */
+
+/* GENERAL STYLING */
+ html {
+    font-size: 62.5%;
+ }
+
+ body {
+    padding: 0;
+    margin: 0;
+ }
+
+ h1 {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1.6rem;
+    color: #1A1B1D;
+    text-align: center;
+ }
+
+ h2 {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1.3rem;
+    color: #1A1B1D;
+    text-align: center;
+ }
+
+ h3 {
+    font-family: 'Great Vibes', cursive;
+    font-size: 2rem;
+    color: #1A1B1D;
+    text-align: center;
+ }
+ 
+ p {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1.3rem;
+    color: #1A1B1D;
+    padding-left: 6rem;
+    padding-right: 6rem;
+ }
+
+ /* HEADER */
+ .main-header {
+    background-color: whitesmoke;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 0.2rem solid rgba(26, 27, 29, 0.2);
+    position: fixed;
+    top: 0;
+    width: 100%;
+    height: 7rem;
+ }
+
+ .brand-name {
+    margin: 0;
+ }
+
+ .ig-logo {
+    font-family: 'Great Vibes', cursive;
+    font-size: 2.5rem;
+    color: #CAB9A8;
+    position: absolute;
+    top: 30%;
+    left: 26%;
+    z-index: -1; 
+}
+
+svg {
+    padding-right: 2rem;
+    padding-left: 2rem;
+    height: 2rem;
+ }
+
+ /* HERO IMAGE */
+ .hero-image {
+    background-color: #E1D7C9;
+    width: 100%;
+    height: 50vh;
+ }
+
+ /* COMPANY INFO */
+ .company-info {
+    margin: 1rem;
+ }
+
+ /* GRID GALLERY */
+ .main-gallery {
+    /* display: grid; */
+    /* grid-template-row: 1fr 1fr; */
+    /* gap: 2rem; */
+    padding: 2rem;
+    /* padding-left: 10rem;
+    padding-right: 10rem; */
+ }
+
+ .img-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 2rem;
+ }
+
+ .image1, .image2, .image3, .image4, .image5, .image6 {
+    /* max-width: 20rem; */
+    height: 30vh;
+    background-color: #E6E3DD;
+ }
+
+ /* FOOTER */
+ .main-footer {
+    background-color: #E1D7C9;
+ }
+
+ .footer-logo {
+    font-family: 'Great Vibes', cursive;
+    color: #1A1B1D;
+    font-size: 2.3rem;
+    padding-top: 2rem;
+ }
+
+ .social-icons {
+    display: flex;
+    justify-content: center;
+ }
+
+ .footer-contact-info {
+    color: #1A1B1D;
+    text-align: center;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+ }
+
+.footer-copy {
+    color: #1A1B1D;
+    text-align: center;
+    margin: 0;
+    padding-bottom: 1rem;
+}
+
+/* Tablet Styles */
+@media screen and (min-width: 768px) and (max-width: 1023px) {
+    /* Styles for tablets go here */
+}
+
+/* Desktop Styles */
+@media screen and (min-width: 1024px) {
+    /* Styles for larger screens go here */
+}

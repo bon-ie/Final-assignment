@@ -1,0 +1,51 @@
+/* COLOURS 
+#E6E3DD
+#E1D7C9
+#CAB9A8
+#AF967C
+#1A1B1D - RGB 26, 27, 29
+ */
+
+/* font-family: 'Great Vibes', cursive;
+font-family: 'Montserrat', sans-serif; */
+
+/* GENERAL STYLING */
+html {
+   font-size: 62.5%;
+}
+
+body {
+   padding: 0;
+   margin: 0;
+   padding-top: 7rem;
+}
+
+h1 {
+   font-family: 'Montserrat', sans-serif;
+   font-size: 2rem;
+   color: #1A1B1D;
+   text-align: center;
+}
+
+h2 {
+   font-family: 'Montserrat', sans-serif;
+   font-size: 2rem;
+   color: #1A1B1D;
+   text-align: center;
+}
+
+h3 {
+   font-family: 'Great Vibes', cursive;
+   font-size: 2rem;
+   color: #1A1B1D;
+   text-align: center;
+}
+
+p {
+   font-family: 'Montserrat', sans-serif;
+   font-size: 1.6rem;
+   color: #1A1B1D;
+   padding-left: 6rem;
+   padding-right: 6rem;
+   line-height: 1.5;
+}

@@ -1,0 +1,118 @@
+/* MAIN */
+.company-info .unique,
+.company-info .bespoke,
+.company-info .handcrafted {
+   padding-top: 3rem;
+   padding-bottom: 3rem;
+}
+
+.image-1-container, .image-2-container, .image-3-container {
+   width: 100%;
+   height: 100%;
+   overflow: hidden;
+}
+
+.image-1, .image-2, .image-3 {
+   width: 100%;
+   height: 35vh;
+   overflow: hidden;
+   object-fit: cover;
+}
+
+/* TABLET STYLES */
+@media screen and (min-width: 768px) and (max-width: 1023px) {
+
+   /* add a top navigation here  */
+
+   .company-info {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 2rem;
+      padding: 2rem;
+   }
+
+   .ig-logo {
+      left: 39%;
+   }
+
+   .unique {
+      order: 0;
+   }
+
+   .bespoke {
+      order: 4;
+   }
+
+   .handcrafted {
+      order: 4;
+   }
+
+   .image-1-container {
+      order: 1;
+   }
+
+   .image-2-container {
+      order: 3;
+   }
+
+   .image-3-container {
+      order: 5;
+   }
+
+   .unique {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      /* why is this not working when I apply the flexbox */
+   }
+
+   .footer-logo {
+      font-size: 3rem;
+   }
+}
+
+/* DESKTOP STYLES */
+@media screen and (min-width: 1024px) {
+
+   .company-info {
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      gap: 2rem;
+      padding: 2rem;
+   }
+
+   .company-info .unique p,
+   .company-info .bespoke p,
+   .company-info .handcrafted p {
+      padding-left: 2rem;
+      padding-right: 2rem;
+   }
+
+   .unique {
+      order: 3;
+   }
+
+   .bespoke {
+      order: 4;
+   }
+
+   .handcrafted {
+      order: 5;
+   }
+
+   .image-1-container {
+      order: 0;
+   }
+
+   .image-2-container {
+      order: 1;
+   }
+
+   .image-3-container {
+      order: 2;
+   }
+
+   .footer-logo {
+      font-size: 3.5rem;
+   }
+}

@@ -1,0 +1,189 @@
+/* COMPANY INFO */
+.company-info {
+    text-align: center;
+    padding-top: 3rem;
+    padding-bottom: 1rem;
+}
+
+/* GALLERY */
+.main-gallery {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 2rem;
+    padding: 2rem;
+}
+
+.gallery-container {
+    position: relative;
+}
+
+.image1, .image2, .image3, .image4, .image5, .image6 {
+    overflow: hidden;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    min-height: 30rem;
+}
+
+.image1 {
+    background-image: url(https://images.unsplash.com/photo-1593835351974-1c99239fed62?w=800&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1yZWxhdGVkfDJ8fHxlbnwwfHx8fHw%3D);
+}
+
+.image2 {
+    background-image: url(https://images.unsplash.com/photo-1628965882741-570e75becd5d?w=800&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8N3x8YnJvd258ZW58MHx8MHx8fDA%3D);
+}
+
+.image3 {
+    background-image: url(https://images.unsplash.com/photo-1619043599439-9b750b7b2623?w=800&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTJ8fGJyb3dufGVufDB8fDB8fHww);
+}
+
+.image4 {
+    background-image: url('/images/KJ-194.jpg');
+}
+
+.image5 {
+    background-image: url(https://images.unsplash.com/photo-1551890946-3e5446d3a71b?q=80&w=2670&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D);
+}
+
+.image6 {
+    background-image: url(https://images.unsplash.com/photo-1520295980358-21d438282de6?w=800&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8OHx8YnJvd258ZW58MHx8MHx8fDA%3D);
+}
+
+.gallery-container .overlay {
+    background-color: rgba(57, 57, 57, 0.5);
+    position: absolute;
+    bottom: 0;
+    padding: 1rem;
+    left: 0;
+    right: 0;
+}
+
+.gallery-container .overlay h2 {
+    text-align: left;
+    padding-left: 1rem;
+    margin: 0;
+    color: whitesmoke;
+}
+
+.gallery-container .overlay p {
+    padding-left: 1rem;
+    padding-right: 1rem;
+    margin: 0;
+    color: whitesmoke;
+}
+
+/* MODAL */
+.modal {
+    display: none; 
+    position: fixed; 
+    z-index: 1; 
+    padding-top: 10rem; 
+    left: 0;
+    top: 0;
+    width: 100%; 
+    height: 100%; 
+    overflow: auto; 
+    background-color: rgba(26, 27, 29, 0.4); 
+  }
+
+.modal-content {
+    margin: auto;
+    padding: 2rem;
+    width: 40%;
+    height: 40%;
+    background-image: url(https://images.unsplash.com/photo-1532712938310-34cb3982ef74?q=80&w=2340&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D);
+    background-size: cover;
+    background-position: center;
+    border: 10px solid #E1D7C9;
+  }
+
+  .modal-text a, .modal-text {
+    font-size: 1.6rem;
+    color: #1A1B1D;
+  }
+  .modal-text a {
+    text-decoration: none;
+    font-style: italic;
+    font-weight: bold;
+  }
+
+  .modal-text a:hover,
+  .modal-text a:focus {
+    color: #AF967C;
+    text-decoration: none;
+    cursor: pointer;
+  }
+
+  .modal-content p {
+    padding: 0;
+  }
+  
+  .close {
+    color:#1A1B1D;
+    float: right;
+    font-size: 25px;
+    font-weight: bold;
+  }
+  
+  .close:hover,
+  .close:focus {
+    color: #AF967C;
+    text-decoration: none;
+  }
+
+/* TABLET STYLES */
+@media screen and (min-width: 768px) and (max-width: 1023px) {
+    .main-gallery {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+    }
+
+    .image1, .image2, .image3, .image4, .image5, .image6 {
+        min-height: 40rem;
+    }
+
+    .grid-item-3 {
+        order: 1;
+    }
+
+    .grid-item-5, .grid-item-6 {
+        order: 2;
+    }
+
+    .company-info {
+        padding-left: 12rem;
+        padding-right: 12rem;
+    }
+}
+
+/* DESKTOP STYLES */
+@media screen and (min-width: 1024px) {
+    .main-gallery {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+    }
+
+    .image1, .image2, .image3, .image4, .image5, .image6 {
+        min-height: 50rem;
+    }
+
+    .grid-item-3 {
+        order: 1;
+    }
+
+    .grid-item-5, .grid-item-6 {
+        order: 2;
+    }
+
+    .company-info {
+        padding-left: 20rem;
+        padding-right: 20rem;
+    }
+
+    .modal-content {
+        margin: auto;
+        padding: 2rem;
+        width: 45rem;
+        height: 45rem;
+    }
+}

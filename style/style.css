@@ -4,9 +4,7 @@
 #CAB9A8
 #AF967C
 #1A1B1D - RGB 26, 27, 29
- */
-
-/* font-family: 'Great Vibes', cursive;
+font-family: 'Great Vibes', cursive;
 font-family: 'Montserrat', sans-serif; */
 
 /* GENERAL STYLING */
@@ -20,32 +18,39 @@ body {
    padding-top: 7rem;
 }
 
-h1 {
+.brand-name a {
+   text-decoration: none;
    font-family: 'Montserrat', sans-serif;
    font-size: 2rem;
    color: #1A1B1D;
    text-align: center;
+   font-weight: bold;
 }
 
-h2 {
+.heading-unique, .heading-bespoke, .heading-handcrafted, .heading-two, .gallery-name {
    font-family: 'Montserrat', sans-serif;
    font-size: 2rem;
    color: #1A1B1D;
    text-align: center;
+   font-weight: bold;
+   line-height: 1.5;
+   margin-top: 0;
+   margin-bottom: 1.6rem;
 }
 
-h3 {
+.footer-logo {
    font-family: 'Great Vibes', cursive;
    font-size: 2rem;
    color: #1A1B1D;
    text-align: center;
 }
 
-p {
+.ig-paragrah, .footer-contact-info, .footer-copy {
    font-family: 'Montserrat', sans-serif;
    font-size: 1.6rem;
    color: #1A1B1D;
    padding-left: 6rem;
    padding-right: 6rem;
+   line-height: 1.5;
    line-height: 1.5;
 }

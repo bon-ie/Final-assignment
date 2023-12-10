@@ -1,43 +1,43 @@
 /* FOOTER */
 .main-footer {
-    background-color: #E1D7C9;
- }
- 
- .footer-logo {
-    font-family: 'Great Vibes', cursive;
-    color: #1A1B1D;
-    font-size: 2.3rem;
-    padding-top: 2rem;
-    padding-bottom: 2rem;
-    margin: 0;
- }
- 
- .social-icons {
-    display: flex;
-    justify-content: center;
- }
- 
- svg {
-    padding-right: 1rem;
-    padding-left: 1rem;
-    height: 2rem;
- }
- 
- .footer-contact-info {
-    color: #1A1B1D;
-    text-align: center;
-    padding-top: 1rem;
-    padding-bottom: 1rem;
- }
- 
- .footer-copy {
-    color: #1A1B1D;
-    text-align: center;
-    margin: 0;
-    padding-bottom: 1rem;
- }
+   background-color: #E1D7C9;
+}
 
- /* Tablet Styles */
+.footer-logo {
+   color: #1A1B1D;
+   font-family: 'Great Vibes', cursive;
+   font-size: 2.3rem;
+   margin: 0;
+   padding-bottom: 2rem;
+   padding-top: 2rem;
+}
+
+.social-icons {
+   display: flex;
+   justify-content: center;
+}
+
+.footer-svg {
+   height: 2.5rem;
+   padding-left: 1rem;
+   padding-right: 1rem;
+}
+
+.footer-contact-info {
+   color: #1A1B1D;
+   text-align: center;
+   padding-top: 1rem;
+   padding-bottom: 1rem;
+}
+
+.footer-copy {
+   color: #1A1B1D;
+   text-align: center;
+   margin: 0;
+   padding-bottom: 1rem;
+}
+
+/* Tablet Styles */
 @media screen and (min-width: 768px) and (max-width: 1023px) {
    .footer-logo {
       font-size: 3rem;

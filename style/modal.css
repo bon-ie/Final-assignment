@@ -1,0 +1,59 @@
+/* MODAL */
+.modal {
+  background-color: rgba(26, 27, 29, 0.4);
+  display: none;
+  height: 100%;
+  left: 0;
+  overflow: auto;
+  padding-top: 10rem;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 1;
+}
+
+.modal-content {
+  background-image: url(https://images.unsplash.com/photo-1532712938310-34cb3982ef74?q=80&w=2340&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D);
+  background-position: center;
+  background-size: cover;
+  border: 10px solid #E1D7C9;
+  height: 40%;
+  margin: auto;
+  padding: 2rem;
+  width: 40%;
+}
+
+.modal-text a, .modal-text {
+  color: #1A1B1D;
+  font-size: 3rem;
+}
+
+.modal-text a {
+  font-style: italic;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+.modal-text a:hover,
+.modal-text a:focus {
+  color: #AF967C;
+  cursor: pointer;
+  text-decoration: none;
+}
+
+.modal-content p {
+  padding: 0;
+}
+
+.close {
+  color: #1A1B1D;
+  float: right;
+  font-size: 25px;
+  font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+  color: #AF967C;
+  text-decoration: none;
+}

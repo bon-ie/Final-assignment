@@ -21,7 +21,7 @@ function GetMap() {
 function loadMapScript() {
   const script = document.createElement("script");
   script.src =
-    "http://www.bing.com/api/maps/mapcontrol?callback=GetMap&key=ArWU34cz1I4S_ysnN1G5A3yJJp1NPk4CObkmnW0sQPu5R5keJArPQYTVnKkCnL0y";
+    "https://www.bing.com/api/maps/mapcontrol?callback=GetMap&key=ArWU34cz1I4S_ysnN1G5A3yJJp1NPk4CObkmnW0sQPu5R5keJArPQYTVnKkCnL0y";
   document.head.appendChild(script);
 }
 
